@@ -1,53 +1,144 @@
-<footer id="footer" class="footer text-center p-5">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3 class="display-4">Social</h3>
-                    <hr class="lighter">
-                    <ul class="list-inline m-0">
-                        <li class="px-2 list-inline-item">
-                            <a href="https://github.com/ndkline" class="btn-social btn-outline"><i class="fa fa-2x fa-github-alt"></i></a>
-                        </li>
-                        <li class="px-2 list-inline-item">
-                            <a href="https://twitter.com/ndkline" class="btn-social btn-outline"><i class="fa fa-2x fa-twitter"></i></a>
-                        </li>
-                        <li class="px-2 list-inline-item">
-                            <a href="https://www.linkedin.com/in/ndkline" class="btn-social btn-outline"><i class="fa fa-2x fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>   
-                <div class="footer-col col-md-4">
-                    <h3 class="display-4">Contact</h3>
-                    <hr class="lighter">
-                    <ul class="list-unstyled m-0">
-                        <li>Call/text: <a href="tel:717-813-4929">717-813-4929</a> <br></li>
-                        <li>Email: <a href="mailto:ndkline@theagora.us">ndkline@theagora.us</a> <br></li>
-                        <li>Twitter: <a href="https://twitter.com/ndkline">@ndkline</a></li>
-                    </ul>
+<footer class="container-fluid" id="fold" style="border-top:solid 10px rgb(99, 97, 157)">
+    <div class="row py-5 justify-content-center" >
+        <div class="col-6">
+            <h3>Contact</h3>
+            {% include contact.html %}
+        </div>
+        <div class="footer-above col-12 my-5">
+            <div class="container">
+                <div class="row" style="background: none;">
+                    <div class="footer-col col-md-4 mb-0 text-right">
+                        
+                        <ul class="list-inline m-0">
+                            <li class="px-2 list-inline-item">
+                                <a href="https://github.com/ndkline" class="btn-social btn-outline"><i class="fa fa-2x fa-github-alt"></i></a>
+                            </li>
+                            <li class="px-2 list-inline-item">
+                                <a href="https://twitter.com/ndkline" class="btn-social btn-outline"><i class="fa fa-2x fa-twitter"></i></a>
+                            </li>
+                            <li class="px-2 list-inline-item">
+                                <a href="https://www.linkedin.com/in/ndkline" class="btn-social btn-outline"><i class="fa fa-2x fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>   
+                    <div class="col my-auto">
+                        Copyright &copy; <a href="http://twitter.com/ndkline">@ndkline</a> 2018
+                    </div>
                 </div>
-                <div class="footer-col col-md-4">
-                    <h3 class="display-4">Services</h3>
-                    <hr class="lighter">
-                    <!-- <p>135 E Nittany Ave<br>STE #5030<br>State College, PA 16801</p> -->
-                    <ul class="list-unstyled">
-                        <li>E-Commerce</li>
-                        <li>WordPress</li>
-                        <li>Drupal</li>
-                        <li>Shopify</li>
-                        <li>Custom Application Development</li>
-                    </ul>
+            </div>
+        </div>
+        <div class="footer-below col-12">
+            <div class="container">
+                <div class="row" style="background: none;">
+                    
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-below">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    Copyright &copy; <a href="http://twitter.com/ndkline">@ndkline</a> 2018
-                </div>
-            </div>
-        </div>
-    </div>
+
+
+  
+    <script src="https://flair.planning.solar/assets/jquery/dist/jquery.min.js" media="nope!" onload="this.media='all'"></script>
+    <script src="https://flair.planning.solar/assets/jquery.easing/jquery.easing.min.js" media="nope!" onload="this.media='all'"></script>
+    <script src="https://flair.planning.solar/assets/bootstrap/dist/js/bootstrap.bundle.min.js" media="nope!" onload="this.media='all'"></script>
+    <script src="https://flair.planning.solar/assets/scrollreveal/dist/scrollreveal.min.js" media="nope!" onload="this.media='all'"></script>
+
+    <script>
+    (function($) {
+    "use strict"; // Start of use strict
+
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 0)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+    $('.toc-entry > a').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 0)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+    // Highlight the top nav as scrolling occurs
+    $('body').scrollspy({
+        target: '.fixed-top',
+        offset: 0
+    });
+
+    // Closes the Responsive Menu on Menu Item Click
+    $('.navbar-collapse ul li a').click(function() {
+        $('.navbar-toggle:visible').click();
+    });
+
+    // Offset for Main Navigation
+    // $('#mainNav').affix({
+    //     offset: {
+    //         top: 100
+    //     }
+    // })
+
+    // Initialize and Configure Scroll Reveal Animation
+    window.sr = ScrollReveal();
+    sr.reveal('.sr-icons', {
+        duration: 600,
+        viewFactor: 0.4,
+        scale: 0.3,
+        distance: '0px'
+    }, 200);
+    sr.reveal('.sr-button', {
+        duration: 1000,
+        viewFactor: 0.4,
+        delay: 200
+    });
+    sr.reveal('.sr-contact', {
+        duration: 600,
+        viewFactor: 0.4,
+        scale: 0.3,
+        distance: '0px'
+    }, 300);
+    sr.reveal('.sr-easeInOut', {
+        origin: 'left',
+        scale: 0.3,
+        rotate: { x: 50, y: 50, z: 0 },
+        easing: 'ease-in-out',
+        duration: 600,
+        viewFactor: 0.4,
+        scale: 0.3,
+        distance: '30%'
+    }, 300);
+    sr.reveal('.sr-pop-a', {
+        duration: 600,
+        viewFactor: 0.4,
+        scale: 0.3,
+        distance: '0px'
+    }, 300);
+    sr.reveal('.sr-pop-b', {
+        delay: 200,
+        duration: 600,
+        viewFactor: 0.4,
+        scale: 0.3,
+        distance: '0px'
+    }, 300);
+    sr.reveal('.sr-pop-c', {
+        delay: 400,
+        duration: 600,
+        viewFactor: 0.4,
+        scale: 0.3,
+        distance: '0px'
+    }, 300);
+    sr.reveal('.sr-pop-d', {
+        delay: 600,
+        duration: 600,
+        viewFactor: 0.4,
+        scale: 0.3,
+        distance: '0px'
+    }, 300);
+
+})(jQuery); // End of use strict
+</script>
 </footer>

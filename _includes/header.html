@@ -1,3 +1,4 @@
+{% if page.url != "/" %}
 <header  role="banner">
     {% assign pages = site.pages | sort: 'weight' %} 
     {% assign default_paths = pages | map: "path"  %}
@@ -11,9 +12,7 @@
         <a class="navbar-brand" href="/">
           <img src="{{ "/favicon-32x32.png" | relative_url}}"  height="30" alt="">
         </a>
-        <a class="nav-link sitename" href="/"><span class="grey">nd</span><span class="bold">Kline</span> <span class="sr-only">(current)</span>
-
-        </a>
+       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,3 +40,4 @@
       </nav>
     {% endif %}
 </header>
+{% endif %}
