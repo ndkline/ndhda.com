@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<!-- <div class="crop">
+  <img  src="{{ page.cover }}">
+</div> -->
+
+<!-- <div class="jumbotron jumbotron-fluid eq-height " style="background:url('{{ page.cover }}'); background-repeat: no-repeat;background-position: center;background-size:cover; ">
+  <div class="container bottom text-center  pt-5" style="background:rgba(0,0,0,.7); width:100%; max-width:none; text-shadow: rgb(0, 0, 0) 1px 2px;">
+    <h1 class="display-4 pt-5">{{ page.title | escape }}</h1>
+    <p class="lead">{{ page.description  }}dd</p>
+  </div>
+</div> -->
+
+<div class="jumbotron jumbotron-fluid mb-5 p-0" style="position:relative;background-image:url('/img/footer_lodyas.png');  height: 50vh; color:white;">
+  <div class="container py-auto" style="position: absolute; background:rgba(99,97,157,.2); height: 50vh; width:100%; max-width:none; text-shadow: rgb(0, 0, 0) 1px 2px;">
+    <div class="row" style="height: 50vh;">
+      <div class="offset-1 col-11 my-auto">
+
+        <h1 class="display-3">{{ page.long_title | escape }}</h1>
+        <p class="lead pl-2" style="font-weight:400;">{{ page.description  }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="container" aria-label="Content">
+
+  <article class="row mb-5">
+
+    <div class="col-12">
+
+    </div>
+
+    {% if page.toc %}
+    <div class="col-12 col-md-4">
+      <h4>Contents</h4>
+      {{ content | toc_only }}
+    </div>
+    {% endif %}
+    <!-- <header class="col-12">
+      <h1 class="page-title">{{ page.title | escape }}</h1>
+    </header> -->
+
+
+    <div class="col-12 col-md-8">
+
+      {{ content }}
+    </div>
+
+
+    {%if page.contact %}
+    <div class="col-12 col-md-4">
+      {% include contact.html %}
+    </div>
+    {% endif %}
+
+  </article>
+
+</main>
