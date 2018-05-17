@@ -1,11 +1,12 @@
 ---
-layout: project
+layout: post
 title: Techpros Presentation
 description: Gave a talk on Drupal 8 to other tech professionals
 image: /img/d8Logo.png
 image-content: /img/d8PresntationCover.png
 image-content-caption: null
 weight: 3
+date: "2015-01-12  12:40"
 ---
 
 

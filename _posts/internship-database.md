@@ -1,11 +1,12 @@
 ---
-layout: project
+layout: post
 title: Internship Database
 description: AnglerJS and ColdFusion internship aggregate
 image: /img/mapUS.png
 image-content: /img/internDB.png
 image-content-caption: null
 weight: 4
+date: "2015-01-12  12:40"
 ---
 
 

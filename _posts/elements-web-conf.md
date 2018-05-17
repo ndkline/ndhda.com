@@ -1,11 +1,11 @@
 ---
-layout: project
+layout: post
 title: Elements Web Conference
 description: Developed website for Penn State's yearly web conference
 image: /img/e_small_orange.png
 image-content: /img/elements-homepage-feature-color.jpg
 image-content-caption: null
-weight: 5
+date: "2015-08-23  12:40"
 ---
 
 
@@ -14,6 +14,3 @@ Worked as a team to develop a web application for the yearly web conference host
 - Client: <a href="http://www.psu.edu/" target="_blank">The Pennsylvania State University</a>
 - Date: June 13-15, 2016
 - Service: Full Stack Developer
-
-
-

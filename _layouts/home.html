@@ -5,7 +5,7 @@ layout: default
 {% assign contributions = site.contributions | sort: 'weight' | reverse  %}
 <style>
   .blk {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
     text-shadow: #000 1px 2px;
 }
 </style>
@@ -39,25 +39,26 @@ layout: default
 </div>
 
 
-<div id="content"  class="py-0 jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('img/at-keyboard.png');background-size:cover;background-position:left;  height: 100vh; color:white;">
+<div id="content"  class="py-0 jumbotron jumbotron-fluid eq-height home-{{ color }} vh{{ site.vertical_height }} mb-0" style="background-image:url('img/at-keyboard.png');background-size:cover;background-position:left;  height: 100vh; color:white; border-top:solid 10px rgb(99, 97, 157)">
 
   <div class="container-fluid align-items-stretch" >
     <div class="row " style="height: 100%;">
 
       <div class="col-12 col-md-6 col-lg-5 d-flex pb-5 blk p-5">
         <div>
-          <h3 class="text-center display-4 pt-3 text-capitalize">What is holistic development?</h3>
+          <h3 class="text-center  pt-3 text-capitalize" style="font-weight: 900">What is holistic development?</h3>
 
           <hr class="light">
 
-          <p class="lead tease">
-              Holism simply means the whole is greater than the sum of it’s parts. 
-          </p>
-          <p>When applied to your web presence, our approach creates happy users with enjoyable experiences that’ll organically grow your audience.</p>
-          <p>Your customers, staff, and stakeholders web experience is tied to your social media strategy and to your brick and mortar facility, etc... All should generate a consistent ethos for your brand.</p>
-          <p>Our strategy harmonizes these experences to increase your bottom line.</p>
+          <blockquote class="blockquote ">
+              <p style="font-weight: 100; border-left: solid 5px rgb(99, 97, 157); font-size: 130%" class="mb-0 pl-3" >Holism simply means the whole is greater than the sum of it’s parts.</p>
+          </blockquote>
+
+          <p style="font-weight: 400; font-size: 120%;">When applied to your web presence, our approach creates happy users with enjoyable experiences, who will organically grow your audience.</p>
+          <p style="font-weight: 400; font-size: 120%;">Your customers, staff, and stakeholders experiences are tied to your social media engagement, website, brick and mortar facility, etc... All should generate a consistent ethos for your brand.</p>
+          <p style="font-weight: 400; font-size: 120%;">Our strategy harmonizes these experences to give the users the feeling of trust in your brand.</p>
           
-          <button type="button" class="btn btn-light float-right page-scroll sr-button" href="#content2">Continue</button>
+          <button type="button" class="btn btn-light float-right page-scroll sr-button" href="#examples">Continue</button>
         </div>
 
       </div>
@@ -66,9 +67,18 @@ layout: default
 </div>
 
 
-<div class="container ">
-  <div class="row " id="examples">
-    
-  </div>
+<div id="examples" class="container-fluid " style="border-top:solid 10px rgb(99, 97, 157)">
+  {% for post in site.posts %}
+    <div class="row " >
+      <div class="col-12">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </div>
+    </div>
+  {% endfor %}
 
 </div>

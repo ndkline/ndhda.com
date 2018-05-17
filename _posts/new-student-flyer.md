@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: New Student Flyer
 description: Designed a widely distributed flyer
 image: /img/psuLogo.png
@@ -8,6 +8,7 @@ image-content-caption: front
 image-2-content: /img/edFlyer2.png
 image-2-content-caption: back
 weight: 2
+date: "2015-01-12  12:40"
 ---
 
 

@@ -1,9 +1,10 @@
 ---
-layout: contrib
+layout: post
 title: Progressive Coders Network
 site: progcode.org
 protocol: https
 weight: 1
+date: "2015-01-12  12:40"
 ---
 
                

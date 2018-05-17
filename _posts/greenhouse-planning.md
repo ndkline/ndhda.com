@@ -1,11 +1,12 @@
 ---
-layout: project
+layout: post
 title: Planning.Solar
 description: Informational site to guide users through greenhouse, conservatory, etc.., purchases and builds
 image: /img/solar-logo.png
 image-content: /img/greenhouse-planning-image.png
 image-content-caption: Homepage of Greenhouse Planning
 weight: 7
+date: "2015-01-12  12:40"
 ---
 
 

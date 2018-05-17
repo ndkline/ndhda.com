@@ -1,9 +1,10 @@
 ---
-layout: contrib
+layout: post
 title: Innovative Reel Technologies
 site: innovativereeltechnologies.com
 protocol: https
 weight: 7
+date: "2015-01-12  12:40"
 ---
 
 

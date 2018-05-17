@@ -1,1 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-07T16:35:18-04:00</updated><id>http://localhost:4000/</id><title type="html">ndKline</title><subtitle>Nick David's Holistic Development Agentcy specializes in developing web applications, user interfaces, and marketing strategies, through a holistic approach to development.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-16T20:44:49-04:00</updated><id>http://localhost:4000/</id><title type="html">ndKline</title><subtitle>Nick David's Holistic Development Agentcy specializes in developing web applications, user interfaces, and marketing strategies, through a holistic approach to development.</subtitle><entry><title type="html">Columbia Health</title><link href="http://localhost:4000/blog/2017/03/01/columbia-health.html" rel="alternate" type="text/html" title="Columbia Health" /><published>2017-03-01T12:40:00-05:00</published><updated>2017-03-01T12:40:00-05:00</updated><id>http://localhost:4000/blog/2017/03/01/columbia-health</id><content type="html" xml:base="http://localhost:4000/blog/2017/03/01/columbia-health.html">&lt;p&gt;Worked in &lt;a href=&quot;https://www.drupal.org/about/drupal-7&quot; target=&quot;_blank&quot;&gt;Drupal 7&lt;/a&gt; make adjustments to a variety of features, blocks, and styles according to the client’s specifications. Versioned in &lt;a href=&quot;https://subversion.apache.org/&quot; target=&quot;_blank&quot;&gt;SVN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-details&quot;&gt;Technical Details&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CentOS&lt;/li&gt;
+  &lt;li&gt;Bootstrap&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="project" /><category term="Drupal" /><category term="Enhancements" /><summary type="html">Worked in Drupal 7 make adjustments to a variety of features, blocks, and styles according to the client’s specifications. Versioned in SVN.</summary></entry><entry><title type="html">Columbia Tech Ventures</title><link href="http://localhost:4000/blog/2017/02/04/columbia-tech-ventures.html" rel="alternate" type="text/html" title="Columbia Tech Ventures" /><published>2017-02-04T12:40:00-05:00</published><updated>2017-02-04T12:40:00-05:00</updated><id>http://localhost:4000/blog/2017/02/04/columbia-tech-ventures</id><content type="html" xml:base="http://localhost:4000/blog/2017/02/04/columbia-tech-ventures.html">&lt;h1 id=&quot;columbia-tech-ventures&quot;&gt;Columbia Tech Ventures&lt;/h1&gt;
+
+&lt;p&gt;Worked with &lt;a href=&quot;https://www.drupal.org/about/drupal-7&quot; target=&quot;_blank&quot;&gt;Drupal 7&lt;/a&gt; webforms to improve the user experience on the platform and make heavy customizations to fit with the client’s goals. Versioned in &lt;a href=&quot;https://subversion.apache.org/&quot; target=&quot;_blank&quot;&gt;SVN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-details&quot;&gt;Technical Details&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CentOS&lt;/li&gt;
+  &lt;li&gt;Bootstrap&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;YouTube API&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="project" /><category term="Drupal" /><category term="Enhancements" /><summary type="html">Columbia Tech Ventures</summary></entry><entry><title type="html">Columbia Video Network</title><link href="http://localhost:4000/blog/2017/01/24/columbia-video-network.html" rel="alternate" type="text/html" title="Columbia Video Network" /><published>2017-01-24T12:40:00-05:00</published><updated>2017-01-24T12:40:00-05:00</updated><id>http://localhost:4000/blog/2017/01/24/columbia-video-network</id><content type="html" xml:base="http://localhost:4000/blog/2017/01/24/columbia-video-network.html">&lt;h1 id=&quot;columbia-video-network&quot;&gt;Columbia Video Network&lt;/h1&gt;
+
+&lt;p&gt;Worked in &lt;a href=&quot;https://www.drupal.org/about/drupal-7&quot; target=&quot;_blank&quot;&gt;Drupal 7&lt;/a&gt; to finish features started by another developer. Worked with &lt;a href=&quot;https://developers.google.com/youtube/iframe_api_reference&quot; target=&quot;_blank&quot;&gt;YouTube’s iFrame API&lt;/a&gt; and &lt;a href=&quot;https://www.panopto.com/&quot; target=&quot;_blank&quot;&gt;Panopto&lt;/a&gt; to enrich the application. Versioned in &lt;a href=&quot;https://about.gitlab.com/&quot; target=&quot;_blank&quot;&gt;GitLab&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-details&quot;&gt;Technical Details&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CentOS&lt;/li&gt;
+  &lt;li&gt;Bootstrap&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;YouTube API&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="project" /><category term="Drupal" /><category term="Enhancements" /><summary type="html">Columbia Video Network</summary></entry><entry><title type="html">Document Viewer</title><link href="http://localhost:4000/blog/2016/11/24/document-viewer.html" rel="alternate" type="text/html" title="Document Viewer" /><published>2016-11-24T12:40:00-05:00</published><updated>2016-11-24T12:40:00-05:00</updated><id>http://localhost:4000/blog/2016/11/24/document-viewer</id><content type="html" xml:base="http://localhost:4000/blog/2016/11/24/document-viewer.html">&lt;h1 id=&quot;document-viewer&quot;&gt;Document Viewer&lt;/h1&gt;
+
+&lt;p&gt;Built an &lt;a href=&quot;https://angularjs.org/&quot; target=&quot;_blank&quot;&gt;AngularJS&lt;/a&gt; front-end application that connects to a json API to retrieve various documents used by the finance office. Note: The backend was disabled so the screenshot wouldn’t show the protected data.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-details&quot;&gt;Technical Details&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CentOS&lt;/li&gt;
+  &lt;li&gt;Bootstrap&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;YouTube API&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="project" /><category term="AngularJS" /><category term="RESTful" /><summary type="html">Document Viewer</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/culogo1.png" /></entry><entry><title type="html">CETC Kiosk</title><link href="http://localhost:4000/blog/2015/01/12/cetc-kiosk.html" rel="alternate" type="text/html" title="CETC Kiosk" /><published>2015-01-12T12:40:00-05:00</published><updated>2015-01-12T12:40:00-05:00</updated><id>http://localhost:4000/blog/2015/01/12/cetc-kiosk</id><content type="html" xml:base="http://localhost:4000/blog/2015/01/12/cetc-kiosk.html">&lt;h1 id=&quot;cetc-kiosk&quot;&gt;CETC Kiosk&lt;/h1&gt;
+
+&lt;p&gt;Developed a responsive frontend application for the College of Education’s IT Department, the &lt;a href=&quot;http://ed.psu.edu/cetc&quot; target=&quot;_blank&quot;&gt;Carrara Education Technology (CETC)&lt;/a&gt;. The applications main purpose was to be used in a kiosk outside the department. It’s flexible design allows it to be used on any device and screen size easily. In additions to its targeted goals it displays a news feed and automated campus warnings.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-details&quot;&gt;Technical Details&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CentOS&lt;/li&gt;
+  &lt;li&gt;Bootstrap&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="project" /><category term="UX/UI Design" /><category term="SCSS" /><category term="JavaScript" /><summary type="html">CETC Kiosk</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/kiosk.png" /></entry></feed>

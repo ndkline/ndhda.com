@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Solar Flair
 description: Dynamic Jekyll Theme Gem
 image: /img/proj--solar-flair.svg
@@ -7,6 +7,7 @@ padding: p-5
 image-content: /img/proj--solar-flair-home.png
 image-content-caption: Homepage of the Solar Flair Theme 
 weight: 8
+date: "2015-01-12  12:40"
 ---
 
 Solar Flair is a [Jekyll Theme Gem](https://jekyllrb.com/) that can be used in virtually any Jekyll site. It boasts the ability to dynamically generate a multiple of themes from a single color scheme, supporting 4 colors and grey.

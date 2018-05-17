@@ -1,9 +1,10 @@
 ---
-layout: contrib
+layout: post
 title: Solar Innovations
 site: solarinnovations.com
 protocol: https
 weight: 8
+date: "2015-01-12  12:40"
 ---
 
 Managed and build features in <a href="https://wordpress.org/" target="_blank">WordPress</a> (PHP). Added features such as a notification bar, custom URL shortener, and responsive email templates. Repaired and implemented new security standards after the site was hacked (prior to my arrival). Implemented caching features and currently integrating with a Content Delivery Network to further optimize the site.
