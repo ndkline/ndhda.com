@@ -4,7 +4,9 @@ title: Solar Flair
 date: "2018-01-10  12:40"
 description: Dynamic Jekyll Theme Gem
 image: /img/proj--solar-flair.svg
-client: Solar Innovations
+client: 
+    - Solar Innovations
+    - IRT Reels
 tags: 
     - UX/UI Design
     - SCSS

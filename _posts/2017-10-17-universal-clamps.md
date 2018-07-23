@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UniversalClamps
+title: Universal Clamps
 date: "2017-10-17  12:40"
 description: TODO
 site: https://universalclamps.com

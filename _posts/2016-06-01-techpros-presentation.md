@@ -5,7 +5,7 @@ date: "2016-06-01  12:40"
 description: Gave a talk on Drupal 8 to other tech professionals
 site: https://www.elements.psu.edu/
 category: project
-client: Columbia University
+client: Penn State
 tags: 
     - Drupal
     - Enhancements

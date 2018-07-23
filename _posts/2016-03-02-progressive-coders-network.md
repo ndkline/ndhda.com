@@ -5,7 +5,7 @@ date: "2016-03-02  12:40"
 description: Gave a talk on Drupal 8 to other tech professionals
 site: progcode.org
 category: project
-client: Charity
+client: Progressive Coders
 tags: 
     - Drupal
     - Enhancements
