@@ -37,17 +37,12 @@ title: Blog
         
 
         {% for post in paginator.posts %}
-        <div class="row">
-          <div class="col-3 text-right " >
-            <p class="post-meta text-d20-{{ theme_style }} h4">{{ post.date | date: "%b %-d, %Y" }}</p>
-            {% if post.author %}
-              <p class="post-meta text-d20-{{ theme_style }} py-2">{{ post.author }}</p>
-            {% endif %}
-          </div>
+        <div class="row justify-content-center">
           <div class="col-9 text-d10-{{ theme_style }}">
             <h2 style="font-size: 1.5rem;">
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | remove: '/_' }}</a>
             </h2>
+            <p class="post-meta text-d20-{{ theme_style }} h4">{{ post.date | date: "%b %-d, %Y" }}</p>
             <div class="clearfix">{{ post.excerpt }}</div>
             <p class="text-right mb-5"><a class="text-d20-{{ theme_style }}" href="{{ post.url | prepend: site.baseurl }}"><small>Continue Reading...</small></a></p>
           </div>
@@ -66,8 +61,11 @@ title: Blog
     background:none;
   }
   .page-item.active .page-link{
-    background-color: #298FC2;
-    border-color: #298FC2;
+    background-color: rgb(99, 97, 157);
+    border-color: rgb(99, 97, 157);
+  }
+  .page-link{
+    color:rgb(99, 97, 157);
   }
 </style>
 {% if paginator.total_pages > 1 %}

@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: NDH Development Agency
+title: Holistic Development Agency
 email: nicholasdkline@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Nick David's Holistic Development Agentcy specializes in developing web applications, user interfaces, and marketing strategies, through a holistic approach to development.
