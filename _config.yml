@@ -26,26 +26,28 @@ roles:
   - UI/UX Design
   - Marketing
   - Business Strategy 
+  - App Development 
 
 # Build settings
 markdown: kramdown
 destination: docs
 #theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-toc
+  - jekyll-paginate
+  - jekyll-sitemap
 
 collections:
-  projects:
+  clients:
     output: true
-  contributions:
-    output: false
-  experience:
-    output: false
+    permalink: /:collection/:name
   
 links:
   robinhood: http://share.robinhood.com/nicholk168
 
 permalink: /blog/:year/:month/:day/:title.html
+paginate: 5
+paginate_path: "/blog/page:num/" 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

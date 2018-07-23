@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-{% assign projects = site.projects | sort: 'weight' | reverse  %}
-{% assign contributions = site.contributions | sort: 'weight' | reverse  %}
+
 <style>
   .blk {
     background: rgba(0,0,0,0.8);
@@ -70,12 +69,9 @@ layout: default
 
 
 <div id="examples" class="container-fluid " style="border-top:solid 10px rgb(99, 97, 157)">
-  {% for post in site.posts %}
+  {% for post in site.clients %}
     <div class="row " >
       <div class="col-12">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>

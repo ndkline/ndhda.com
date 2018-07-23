@@ -1,4 +1,4 @@
-{% if page.url != "/" %}
+
 <header  role="banner">
     {% assign pages = site.pages | sort: 'weight' %} 
     {% assign default_paths = pages | map: "path"  %}
@@ -20,7 +20,13 @@
         <div class="collapse navbar-collapse " id="navbar">
 
           <ul class="navbar-nav  ml-auto">
-           
+            <li class="nav-item"></li>
+              {% if page.url contains 'blog' %}
+                <a class="nav-link active" href="/blog">Blog</a>
+              {% else %}
+                <a class="nav-link" href="/blog">Blog</a>
+              {% endif %}
+            </li>
             {% for path in page_paths %}
               {% assign my_page = site.pages | where: "path", path | first %}
               {% if my_page.title %}
@@ -40,4 +46,3 @@
       </nav>
     {% endif %}
 </header>
-{% endif %}
