@@ -22,11 +22,10 @@ url: "http://nickdavidsholisticdevelopmentagency.com/" # the base hostname & pro
 twitter_username: jekyllrb
 github_username:  jekyll
 roles: 
-  - Web Development 
-  - E-Commerce
-  - Custom Applciations 
+  - Systems Integration
   - UI/UX Design
   - Marketing
+  - Business Strategy 
 
 # Build settings
 markdown: kramdown
@@ -43,7 +42,8 @@ collections:
   experience:
     output: false
   
-
+links:
+  robinhood: http://share.robinhood.com/nicholk168
 
 permalink: /blog/:year/:month/:day/:title.html
 
