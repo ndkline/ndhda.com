@@ -1,0 +1,104 @@
+---
+layout: default
+title: Blog
+---
+{% assign theme_style = page.theme_style | default: site.theme_style   %}
+
+<div class="container pt-4" >
+  <div class="row py-3 ">
+    <div class="col-9 col-md-11">
+      <!-- <h1 class="display-1 text-uppercase text-d20-grey">{{ page.title }}</h1> -->
+      <h1 class="text-uppercase text-d20-grey mt-3">Blog</h1>
+      
+    </div>
+    <a class="col-3 col-md-1 text-center my-auto" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+      <i class="fa fa-rss-square fa-3x" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p> 
+        {{ page.description }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+
+   
+
+
+    <div class="col-12 ">
+      <div id="news" class="container-fluid">
+ 
+        
+
+        {% for post in paginator.posts %}
+        <div class="row">
+          <div class="col-3 text-right " >
+            <p class="post-meta text-d20-{{ theme_style }} h4">{{ post.date | date: "%b %-d, %Y" }}</p>
+            {% if post.author %}
+              <p class="post-meta text-d20-{{ theme_style }} py-2">{{ post.author }}</p>
+            {% endif %}
+          </div>
+          <div class="col-9 text-d10-{{ theme_style }}">
+            <h2 style="font-size: 1.5rem;">
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | remove: '/_' }}</a>
+            </h2>
+            <div class="clearfix">{{ post.excerpt }}</div>
+            <p class="text-right mb-5"><a class="text-d20-{{ theme_style }}" href="{{ post.url | prepend: site.baseurl }}"><small>Continue Reading...</small></a></p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<!-- pagination -->
+<style>
+  nav.pageination{
+    background:none;
+  }
+  .page-item.active .page-link{
+    background-color: #298FC2;
+    border-color: #298FC2;
+  }
+</style>
+{% if paginator.total_pages > 1 %}
+
+<nav aria-label="Pagination" class="pageination mb-4">
+  <ul class="pagination pagination justify-content-center">
+  {% if paginator.previous_page %}
+    <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-angle-left"></i></a></li>
+  {% else %}
+    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li class="page-item active"><a class="page-link" href="#">{{ page }}</a></li>
+    {% elsif page == 1 %}
+      <li class="page-item"><a class="page-link" href="/blog">{{ page }}</a></li>  
+    {% else %}
+      <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-angle-right"></i></a></li>
+    
+  {% else %}
+    <li class="page-item"><a class="page-link" href="#" ><i class="fas fa-angle-right"></i></a></li>
+    
+  {% endif %}
+</ul>
+</nav>
+{% endif %}
