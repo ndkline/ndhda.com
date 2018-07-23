@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: clients
 title: Progressive Coders
-
+category: Progressive Coders
 ---

@@ -4,16 +4,14 @@ title: Blog
 ---
 {% assign theme_style = page.theme_style | default: site.theme_style   %}
 
-<div class="container pt-4" >
-  <div class="row py-3 ">
-    <div class="col-9 col-md-11">
-      <!-- <h1 class="display-1 text-uppercase text-d20-grey">{{ page.title }}</h1> -->
-      <h1 class="text-uppercase text-d20-grey mt-3">Blog</h1>
-      
+<div class="jumbotron jumbotron-fluid mb-5 p-0" style="position:relative;background-image:url('/img/footer_lodyas.png');  height: 40vh; color:white;">
+  <div class="container d-flex align-items-center" style="position: absolute; background:rgba(99,97,157,.2); height: 40vh; width:100%; max-width:none; text-shadow: rgb(0, 0, 0) 1px 2px;">
+    <div class="w-100 d-flex flex-row justify-content-center">
+      <h1 class="text-uppercase mb-0  text-d20-grey">Blog</h1> 
+      <a class="text-center my-auto" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+        <i class="fa fa-rss-square ml-2 fa-2x" aria-hidden="true"></i>
+      </a>
     </div>
-    <a class="col-3 col-md-1 text-center my-auto" href="{{ "/feed.xml" | prepend: site.baseurl }}">
-      <i class="fa fa-rss-square fa-3x" aria-hidden="true"></i>
-    </a>
   </div>
 </div>
 

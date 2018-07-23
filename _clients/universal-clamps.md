@@ -1,4 +1,5 @@
 ---
-layout: post
+layout: clients
 title: Universal Clamps
+category: Universal Clamps
 ---

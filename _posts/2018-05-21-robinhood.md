@@ -1,13 +1,12 @@
 ---
-layout: page
-title: Robinhood
+layout: post
+title: Robinhood | Making Investing Easy
 permalink: /affiliates/robinhood
 date: "2018-07-21  12:40"
 description: New era in investing with Robinhood
 category: blog
+client: self
 ---
-# Making Investing Easy
-
 There has been a handful of technologies that have expanded human liberties and luxuries throughout history, from the oral tradition, the invention of paper, the printing press, radio, and the internet. Unlike in history, people are less inclinded to put their money into property. This can be because they need to stay mobile for their work but often it's because they cannot afford a down payment or other financial reasons.
 
 One of the best ways to make your money work for you is to invest in stocks. Robinhood has made  investments work for me while I have saved. Following a few rules lead to my success:

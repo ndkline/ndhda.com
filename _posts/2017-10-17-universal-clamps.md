@@ -5,7 +5,7 @@ date: "2017-10-17  12:40"
 description: TODO
 site: https://universalclamps.com
 image: /img/proj--solar-flair.svg
-client:  UniversalClamps
+client:  Universal Clamps
 tags: 
     - UX/UI Design
     - SCSS

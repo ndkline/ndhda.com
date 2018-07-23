@@ -6,7 +6,7 @@ layout: default
     <div class="row" style="height: 50vh;">
       <div class="offset-1 col-11 my-auto">
 
-        <h1 class="display-3">{{ page.long_title | escape }}</h1>
+        <h1 class="display-3">{{ page.title | escape }}</h1>
         <p class="lead pl-2" style="font-weight:400;">{{ page.description  }}</p>
       </div>
     </div>
@@ -14,36 +14,31 @@ layout: default
 </div>
 
 <main class="container" aria-label="Content">
-
   <article class="row mb-5">
-
-    <div class="col-12">
-
-    </div>
-
-    {% if page.toc %}
-    <div class="col-12 col-md-4">
-      <h4>Contents</h4>
-      {{ content | toc_only }}
-    </div>
-    {% endif %}
-    <!-- <header class="col-12">
-      <h1 class="page-title">{{ page.title | escape }}</h1>
-    </header> -->
-
-
     <div class="col-12 col-md-8">
 
       {{ content }}
     </div>
 
 
-    {%if page.contact %}
+
     <div class="col-12 col-md-4">
-      {% include contact.html %}
+        <h3>Related Posts</h3>
+        {% for post in site.posts %}
+        {% if post.client contains page.category %}
+        <div class="row " >
+            <div class="col-12">
+              <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </h2>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}  
     </div>
-    {% endif %}
+
 
   </article>
 
 </main>
+
