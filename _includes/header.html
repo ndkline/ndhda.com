@@ -27,6 +27,15 @@
                 <a class="nav-link" href="/blog">Blog</a>
               {% endif %}
             </li>
+
+            <li class="nav-item"></li>
+              {% if page.url contains 'services' %}
+                <a class="nav-link active" href="/services">Services</a>
+              {% else %}
+                <a class="nav-link" href="/services">Services</a>
+              {% endif %}
+            </li>
+
             {% for path in page_paths %}
               {% assign my_page = site.pages | where: "path", path | first %}
               {% if my_page.title %}

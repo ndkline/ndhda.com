@@ -15,6 +15,8 @@ I took the data and exported it as a CSV document. From there I converted it int
 
 So I had an empty site and data to work with but needed a layout, interface, and user experience to establish. I took out a tablet of grid paper and a stack of large sticky notes. I worked out basic wireframe ideas and took mental notes on how the UX should feel. 
 
+![alt text](/assets/img/wireframe.jpg){: class="img-thumbnail float-right w-50 ml-3" }
+
 Following that, I took to code. I mocked up a how the interface would look statically and ran it by a few managers and administrators. From there I started to add reactivity to the features with Vue.js.
 
 I quickly ran into an issue with the images, only about half of them were where they were suppose to be. I tracked down the problem images and continued to develop the application. 
