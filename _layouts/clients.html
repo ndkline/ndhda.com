@@ -1,6 +1,25 @@
 ---
 layout: default
 ---
+<style>
+    p{
+      font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+      font-size: 21px;
+      letter-spacing: -0.0666667px;
+      color: rgba(0, 0, 0, 0.84);
+      line-height: 33.1833px;
+      text-rendering: optimizelegibility;
+    }
+    .post-link{
+      font-size: 19px;
+    }
+    h2{
+      text-transform: uppercase;
+      font-weight: 800;
+      color: rgba(0, 0, 0, 0.64);
+      border-bottom: rgba(99, 97, 157, 0.5) solid 5px;
+    }
+  </style>
 <div class="jumbotron jumbotron-fluid mb-5 p-0" style="position:relative;background-image:url('/img/footer_lodyas.png');  height: 50vh; color:white;">
   <div class="container py-auto" style="position: absolute; background:rgba(99,97,157,.2); height: 50vh; width:100%; max-width:none; text-shadow: rgb(0, 0, 0) 1px 2px;">
     <div class="row" style="height: 50vh;">
@@ -22,15 +41,13 @@ layout: default
 
 
 
-    <div class="col-12 col-md-4">
-        <h3>Related Posts</h3>
+    <div class="col-12 col-md-4 text-right">
+        <h2>Related Posts</h2>
         {% for post in site.posts %}
         {% if post.client contains page.category %}
         <div class="row " >
             <div class="col-12">
-              <h2>
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-              </h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </div>
         </div>
         {% endif %}
